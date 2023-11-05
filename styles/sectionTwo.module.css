@@ -1,0 +1,13 @@
+.sectionTwo_container {
+  background: linear-gradient(
+    180deg,
+    rgba(5, 12, 18, 0.75) 0%,
+    rgba(4, 13, 17, 0) 100%
+  );
+}
+
+#left_side {
+  background-image: url(/images/second_left.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

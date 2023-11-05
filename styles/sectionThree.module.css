@@ -1,0 +1,44 @@
+.background {
+  background-image: url(/images/section_three_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1300px;
+  background-color: #121d2e;
+  display: flex;
+  flex-direction: column;
+  margin-top: -133px;
+}
+.wrapper {
+  background: linear-gradient(180deg, #050c12 0%, rgba(4, 13, 17, 0) 100%);
+  width: 100%;
+  height: 133px;
+  clip-path: inset(-50px 0 00);
+  overflow: hidden;
+}
+
+.box {
+  @apply shadow-[0px_4px_6px_0px_rgba(0,0,0,0.25)] w-[367.883px] h-[240px] lg:h-[410px] rounded-[10px] flex flex-col justify-center items-center;
+  background: rgba(129, 69, 32, 0.7);
+}
+
+.active {
+  @apply h-[350px] lg:h-[484px] bg-[rgba(18,29,46,0.75)] w-[367.883px] rounded-[10px] flex flex-col justify-center items-center;
+}
+
+.contact_button {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #121d2e;
+}
+.contact_button > a {
+  color: #fff;
+  font-family: Fredoka;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

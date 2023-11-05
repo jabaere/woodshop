@@ -1,0 +1,34 @@
+.background {
+  background-image: url(/images/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1431px;
+  background-color: #121d2e;
+  display: flex;
+  flex-direction: column;
+}
+
+#main_title {
+  font-family: Fredoka;
+}
+.contact_button {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #121d2e;
+}
+.contact_button > a {
+  color: #fff;
+  font-family: Fredoka;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.advanteges-text {
+  font-family: Readex Pro;
+}
