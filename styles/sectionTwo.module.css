@@ -7,8 +7,6 @@
 }
 
 #left_side {
-  background-image: linear-gradient(360deg, #050c12, rgba(4, 13, 17, 0)),
-    url(/images/second_left.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
