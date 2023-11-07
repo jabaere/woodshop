@@ -12,3 +12,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#right_side {
+  background-image: linear-gradient(360deg, #050c12, rgba(4, 13, 17, 0)),
+    url(/images/second_right_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

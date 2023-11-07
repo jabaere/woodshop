@@ -26,7 +26,7 @@ export const SectionThree = () => {
           </div>
         </div>
         <div className="cottage-container mt-[57px] lg:mt-[37px] flex flex-col w-[90%] lg:w-[80%] self-center gap-[26px] items-center">
-          <div className="w-full flex gap-[66px] justify-center lg:justify-normal lg:gap-[26px] items-center flex-wrap lg:flex-nowrap">
+          <div className="w-full flex gap-[66px] justify-center lg:justify-normal 2xl:justify-between lg:gap-[26px] items-center flex-wrap lg:flex-nowrap">
             <div className={styles.box}>
               <Image
                 src="/images/f-1.png"

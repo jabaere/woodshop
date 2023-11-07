@@ -5,7 +5,7 @@
   right: 34px;
   z-index: 10000;
   display: flex;
-  justify-content: space-around;
+  @apply justify-around 2xl:justify-between;
   align-items: initial;
   padding-top: 25px;
 }

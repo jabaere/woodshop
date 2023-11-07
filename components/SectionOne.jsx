@@ -36,14 +36,14 @@ export const SectionOne = () => {
           <Link href="/">Start Now</Link>
         </div>
       </div>
-      <div className="flex gap-[50px] lg:gap-0 w-[85%] md:w-[70%] lg:w-[85%] self-end mx-auto flex-wrap pt-[222px] sm:pt-[622px] lg:pt-[800px]">
+      <div className="flex gap-[50px] lg:gap-0 w-[85%] md:w-[70%] lg:w-[85%] 2xl:w-[100%] self-end mx-auto flex-wrap pt-[222px] sm:pt-[622px] lg:pt-[800px]">
         {advantagesData.map((item, index) => (
           <div
             id={`box-${index}`}
             className="flex w-[100%] md:w-auto lg:w-[20%]"
             key={index}
           >
-            <div className="flex flex-row lg:flex-col justify-start lg:justify-center items-center gap-[20px] lg:gap-0 xl:gap-[50px] w-[100%]">
+            <div className="flex flex-row lg:flex-col justify-start lg:justify-center items-center gap-[20px] lg:gap-0 xl:gap-[50px] w-[100%] font-second">
               <Image
                 src={item.icon}
                 width={45}
